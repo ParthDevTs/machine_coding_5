@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Navbar from '../components/navbar'
 import { useRecipe } from '../context/RecipeContext'
 import { useNavigate } from 'react-router-dom';
@@ -15,7 +15,7 @@ function Home() {
             <ul className="recipeList grid grid-cols-4 w-full mt-8 px-8 items-center justify-center gap-6 relative">
                 {RecipeArray && RecipeArray.map(recipe => {
                     const { id, name, cuisine, img } = recipe;
-                    return <li key={id} className="bg-slate-300 shadow-lg pb-6 rounded-md flex flex-col items-center justify-evenly">
+                    return <li key={name + id} className="bg-slate-300 shadow-lg pb-6 rounded-md flex flex-col items-center justify-evenly">
                         <img src={img} className="w-full" alt={name} />
                         <h3 className="w-full px-4 text-lg font-bold py-6">{name}</h3>
                         <div className="cuisine__type text-sm flex w-full items-center justify-between px-4">
