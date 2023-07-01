@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid"
 export const Recipies = [
     {
         id: uuid(),
-        name: "Parantha",
+        name: "Parantha1",
         ingredients: "atta, flour,",
         instructions: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque rem, vitae quia sed amet! In commodi blanditiis voluptatibus. Nesciunt iure repellat illo facilis asperiores autem quia tenetur nisi eligendi! ",
         cuisine: "Indian",
@@ -11,7 +11,7 @@ export const Recipies = [
     },
     {
         id: uuid(),
-        name: "Parantha",
+        name: "Parantha3",
         ingredients: "atta, flour,",
         instructions: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque rem, vitae quia sed amet! In commodi blanditiis voluptatibus. Nesciunt iure repellat illo facilis asperiores autem quia tenetur nisi eligendi! ",
         cuisine: "Indian",
@@ -19,7 +19,7 @@ export const Recipies = [
     },
     {
         id: uuid(),
-        name: "Parantha",
+        name: "Parantha2",
         ingredients: "atta, flour,",
         instructions: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore neque rem, vitae quia sed amet! In commodi blanditiis voluptatibus. Nesciunt iure repellat illo facilis asperiores autem quia tenetur nisi eligendi! ",
         cuisine: "Indian",
